@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-gray-100;
+}
+
+body.dark {
+    @apply bg-gray-900;
+}
+
+main {
+    @apply px-20 py-12;
+}
